@@ -42,3 +42,22 @@ iframe#tela{
     width: 269px; /*Largura do conteúdo da tela do celular*/
     height: 471px; /*Altura do conteúdo da tela do celular*/
 }
+
+section#redes-sociais{
+    text-align: right; /*Ainhando as imagens a direita*/
+}
+
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%; /*Deixar os botões redondinhos*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid rgb(255, 255, 255);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404); /*Quando passar o mouse, a sombra aumenta*/
+    transition: transform 0.5s; /*Quanto tempo demora para o botão mexer após mexer o mouse*/
+}
